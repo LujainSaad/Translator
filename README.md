@@ -1,4 +1,4 @@
-# Translator
+# Translator [Practicing Flask] 
 
 The Translation App is a Python application built using Flask that allows users to translate text between English and French. It leverages the Google Translate API for language translation.
 
