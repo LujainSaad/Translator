@@ -1,7 +1,3 @@
-# from deep_translator import MyMemoryTranslator
-
-# translator = MyMemoryTranslator()
-
 from googletrans import Translator
 
 translator = Translator(service_urls=['translate.google.com'])

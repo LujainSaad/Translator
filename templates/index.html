@@ -80,26 +80,15 @@
       <h1>Welcome to the Translation App</h1>
       <form action="/translate/french-to-english" method="POST">
         <label for="frenchText">French Text:</label>
-        <input
-          type="text"
-          id="frenchText"
-          name="frenchText"
-          value="{{ frenchText }}"
-        />
+        <input type="text" id="frenchText" name="frenchText" />
         <button type="submit">Translate to English</button>
       </form>
-
+      <br />
       <form action="/translate/english-to-french" method="POST">
         <label for="englishText">English Text:</label>
-        <input
-          type="text"
-          id="englishText"
-          name="englishText"
-          value="{{ englishText }}"
-        />
+        <input type="text" id="englishText" name="englishText" />
         <button type="submit">Translate to French</button>
       </form>
-
       {% if translation %}
       <div class="translation-result">
         <div id="result-box">
