@@ -14,3 +14,5 @@ Prerequisites
 - Python (version 3.6 or higher)
 - Flask (version 2.0.1 or higher)
 - googletrans (version 4.0.0-rc1 or higher)
+
+<img width="294" alt="Screen Shot 2023-06-28 at 9 27 12 PM" src="https://github.com/LujainSaad/Translator/assets/79986157/efb7af39-a27b-41a5-8ba1-620619c0e820">
